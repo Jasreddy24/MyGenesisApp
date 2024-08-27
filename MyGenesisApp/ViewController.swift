@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func introduceSelfTapped(_ sender: UIButton) {
-        
+                
         let year = yearSegmentedControl.titleForSegment(at: yearSegmentedControl.selectedSegmentIndex)
         
         let introduction =  "My name is \(firstNameTextField.text!) \(lastNameTextField.text!) and I attend \(schoolNameTextField.text!). I am currently in my \(year!) and I own \(numberOfPetsLabel.text!) dogs. It is \(morePetsSwitch.isOn) that I want more pets."
